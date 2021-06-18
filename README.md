@@ -63,7 +63,6 @@ Compile with `make`
 1. Install MSYS2 (msys2.org)
 2. Install MinGW-W64 from MSYS2
 3. Get 64-bit SDL2 development tools (libsdl.org)
-4. Rename current Makefile to Makefile-POSIX and rename Makefile-WIN to Makefile (changed variables belong to MAKEFILE-WIN)
 5. Edit IC:/ and LC:/ in CCFLAGS and EMULD respectively to your SDL location (preferred C:/cdevlibs/include and C:/cdevlibs/lib respectively)
 6. Change CC and LD to the location of GCC (including the executable name) in your MinGW-W64 install (or alternatively, add the location to path)
 7. Install xxd for windows (https://sourceforge.net/projects/xxd-for-windows/)
